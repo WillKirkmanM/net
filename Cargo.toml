@@ -1,0 +1,8 @@
+[package]
+name = "net"
+version = "0.1.0"
+edition = "2024"
+description = "The Net Command Reviews Saved Windows Share Connections, Comparing Snapshots to Reveal Changed Drive Mappings and Disconnected Shares"
+
+[dependencies]
+clap = { version = "=4.6.6", features = ["derive"] }
